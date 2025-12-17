@@ -19,19 +19,19 @@ The project demonstrates embedded motor control, Bluetooth communication, and a 
 The RC car is built using an ESP32 and L298N motor driver mounted on a 4-wheel chassis.  
 A dual power supply is used to isolate motor current from logic circuitry for stable operation.
 
-➡ **Detailed hardware components and power design:**  
-- [`hardware/Components_List.md`](hardware/Components_List.md)  
-- [`hardware/Power_Architecture.md`](hardware/Power_Architecture.md)
+Detailed hardware documentation:
+- [Components List](hardware/Components_List.md)
+- [Power Architecture](hardware/Power_Architecture.md)
 
 ---
 
 ## Software
-- Developed using Arduino IDE  
-- Uses ESP32 `BluetoothSerial` (Classic Bluetooth)  
-- Command-based control logic  
+- Developed using Arduino IDE
+- Uses ESP32 `BluetoothSerial` (Classic Bluetooth)
+- Command-based control logic
 
-➡ Firmware source:  
-- [`firmware/esp32_bluetooth_rc_car.ino`](firmware/esp32_bluetooth_rc_car.ino)
+Firmware source:
+- [ESP32 Bluetooth RC Car Firmware](firmware/esp32_bluetooth_rc_car.ino)
 
 ---
 
@@ -61,13 +61,13 @@ A working demonstration of the RC car is available under the **Issues** section 
 ---
 
 ## Design Notes
-- Bluetooth is implemented using the ESP32’s built-in Classic Bluetooth module (no external HC-05).
-- The project is a functional prototype focused on validating control logic and power stability.
+- Bluetooth communication is implemented using the ESP32’s built-in Classic Bluetooth module; no external HC-05 module is used.
+- The project was developed as a functional prototype, with focus on validating control logic and power stability.
 
 ---
 
 ## Future Work
-Planned improvements are tracked using **GitHub Issues**.
+Planned improvements and enhancements are tracked using **GitHub Issues**.
 
 ---
 
